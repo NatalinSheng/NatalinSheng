@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
+
     <title>NATALIN SHENG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
