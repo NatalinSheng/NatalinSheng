@@ -1,0 +1,16 @@
+* HOME
+
+home__description
+High level experience in web design and development knowledge, producing quality work.
+
+
+* ABOUT
+about__description
+Hi! I am Natalin Sheng, a student studying Diploma in Civil Engineering 
+
+
+* PROJECT
+project__description
+These are some of the projects that i have worked on!
+
+
