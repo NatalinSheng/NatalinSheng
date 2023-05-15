@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>NATALIN SHENG</title>
@@ -143,3 +144,4 @@
     </footer>
 </body>
 </html>
+
