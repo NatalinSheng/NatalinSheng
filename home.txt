@@ -11,7 +11,7 @@
         }
 
         body {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: "Lato", sans-serif;
             background-color: #f2f2f2;
             color: #333;
         }
@@ -27,7 +27,6 @@
             margin: 0;
         }
 
-        /* Navigation styles */
         nav {
             background-color: #f2f2f2;
             padding: 10px;
@@ -60,9 +59,9 @@
         }
 
         footer {
-            background-color: #333;
+            background-color: #28315c;
             color: white;
-            padding: 20px;
+            padding: 30px;
             text-align: center;
         }
     </style>
@@ -135,13 +134,24 @@
 
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>Email: natalinsheng.20@ichat.sp.edu.sg</p>
+            <form action="/action_page.php" target="_blank">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                   </div>
+                   <div class="w3-half">
+                     <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                   </div>
+                 </div>
+                 <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                 <div></div>
+                 <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+                 </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2023 Natalin Sheng</p>
     </footer>
 </body>
 </html>
+
 
