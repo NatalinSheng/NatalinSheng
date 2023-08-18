@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lanng="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http="equiv=compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Projects</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+    
+            body {
+                font-family: "Lato", sans-serif;
+                background-color: #f2f2f2 width=100%
+                color #333;
+            }
+    
+            header {
+                background-color: #000000;
+                color: white;
+                padding: 275px;
+                text-align: center;
+            }
+
+            main {
+                padding: 40px;
+            }
+    
+            h1 {
+                margin: 0;
+            }
+    
+            nav {
+                background-color: #000000;
+                padding: 20px;
+            }
+    
+            nav a {
+                text-decoration: none;
+                color: #ffffff;
+                padding: 20px 20px;
+                margin: 0 10px;
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black
+            }
+    
+            section {
+                margin-bottom: 40px;
+            }
+    
+            h2 {
+                color: #333;
+                margin-bottom: 20px;
+            }
+    
+            p {
+                line-height: 1.5;
+            }
+            
+        </style>
+    </head>
+
+        <nav>
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="project.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a href="Final Project.html">Final Project</a>
+            </div>
+        </nav>
+
+        <main>
+            <section id="about">
+                <h2>Piano To-Go</h2>
+                <p>The idea for my project is to build a portable music player that is on the go and easy to use.</p>
+                <br>
+                <h2>Ideation</h2>
+                <p> 
+                    When I was brainstorming for an idea, and had to take a break, I was listening to music and I was tapping my fingers.
+                    This gave me the idea of a launchpad that could continuously play a sound until it was pressed again.
+                </p>
+                <br>
+                <h2>Inital Sketch</h2>
+                <p>Initially, I wanted build something similar to a LaunchPad using a 4x4 keypad. This will have a SD card reader which will help to import the desired sounds of the user.
+                    The object will be tilted, allowing or the ease of pressing. 
+                </p>
+                <center>
+                    <img src="Images/final.jpg"  width="450" height="300">
+                </center>
+                <br>
+                <h2>Final Sketch</h2>
+                <p> I came to realise that a keypad was quite difficult to press and I wanted the buttons to be very clickable for better experience, leading me to utilise buttons instead of a 4x4 keypad. 
+                    This then made me change the fundmetal design to a piano instead of a LaunchPad. The design will imitate a piano and allow the users to play it as a mini piano.
+
+                </p>
+                <center>
+                    <img src="Images/initial.jpg"  width="450" height="300">
+                </center>
+                <br>
+                <h2>List Of Materials</h2>
+                    <li>x1 Arudino UNO</li>
+                    <li>x1 Speaker</li>
+                    <li>x7 Tactile Button</li>
+                <br>
+                <h2>Coding & Wiring</h2>
+                <p>Since I was not the best at coding, I utilised the TinkerCAD's function of block to code much more easily.
+                    For there to be any sound coming out that matched the musical notes and octave I needed and wanted, I had to find out the frequency of each note and had the code play the exact frequency I wanted.
+                    I had to re-do the wiring since the previous attempts had a lot of wires and that was not the ideal case since I had limited space for storing of the wires. I also had to re-write the codes since the first time my code worked on TinkerCAD, but not in real life.
+                    I had to contain 'de-bounce' codes as whenever I turned on the arduino, all the 7 notes is played at the same time without any prompt. 
+                    However, adding the 'de-bounce' code made everythin more complicated, and only worked for one button and as I added more buttons, it did not work.
+                    So I had to simplify both the code and the wiring system to make it less complicated and more straight the the point. 
+                <center>
+                    <img src="Images/wiring.jpg"  width="450" height="300">
+                </center>
+                </p>
+                <br>
+                <p>The following frequencies are the ones I used for the notes I wanted.
+                <li>C - 262</li>
+                <li>D - 294</li>
+                <li>E - 330</li>
+                <li>F - 349</li>
+                <li>G - 392</li>
+                <li>A - 440</li>
+                <li>B - 493</li>
+                </p>
+                <br>
+                <center>
+                    <iframe width="560" height="350" src="https://www.tinkercad.com/embed/lrXG8J8QloE?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                </center>
+                <br>
+                <h2>3D Modelling</h2>
+                <p>
+                    For the 3D modelling, I intially wanted to create a grand piano shape to fit all my wires in, however, due to the curve nature, I found it to be hard to fit my Arduino board in efficiently.
+                    Thus, I chose to change the curve into a straight line so that it can better fit all my wirings and board with more efficiency. 
+                    I had to also figure out a mechanism for my piano keys that would allow me to press the key and button.
+                    It was also difficult in coming up with the design of the piano keys since it had to snap in place but be able to be pressed.
+                    I realised that by using smaller buttons, I could use the smaller breadboard, which helped me to save a lot of printing time as with the larger bread board, the printing time would be more than 3 hours.
+                    However, with the smaller breadboard, the dimensions would not need to be as big and it was able to cut the timing into half, while saving material.
+                </p>
+                <br>
+                <center>
+                <iframe width="560" height="350" src="https://a360.co/3KMeBw2" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                </center>
+                <br>
+                <h2>Laser Cutting</h2>
+                <p>
+                    By using 3D modelling for the main body is much easier, so I was not too sure on where I should use the laser cutting skill on.
+                    I realised that if I were to make the desired model that I had, it would require too much material and time to 3D print everything.
+                    So, I decided to empty out the base and have a platform for a piece of acrylic to hold all the wiring.
+                    I also decided to have the acrylic be used on the top of the model. 
+                    This allows for easy removal of the top and for me to be able to fix or touch-up anything with the wires.
+                </p>
+                <br>
+                <br>
+                <h2>Soldering</h2>
+                <p>
+                    Prior to this project, I did not have much experiecne with soldering and had to seek help from classmates as well as teachers. 
+                    Since the speaker did not have any wires, I had to solder the wires to the speaker for it to work.
+                    As one of the prongs of a button had broken off, I had to solder a small piece of wire onto the broken prongs to helps extend the wire, for me to be able to connect it into the breadboard.
+                </p>
+                <br>
+                <h2>Video</h2>
+                <center>
+                <iframe width="560" height="350" src="https://www.youtube.com/embed/c7zTZ4vODVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+               </center>
+                <br>
+                <h2>Poster</h2>
+                <center>
+                    <img src="Images/poster.jpg"  width="450" height="300">
+                </center>
+            </section>
+        </main>
